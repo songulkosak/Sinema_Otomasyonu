@@ -101,5 +101,12 @@ namespace Songul_Kosak_211103058
             GridGuncelleme();
             ToplamUcretHesaplama();
         }
+
+        private void button_geridon_Click(object sender, EventArgs e)
+        {
+            Anasayfa frm = new Anasayfa();
+            frm.Show();
+            this.Hide();
+        }
     }
 }

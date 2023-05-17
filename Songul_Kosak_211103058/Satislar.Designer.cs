@@ -102,6 +102,7 @@ namespace Songul_Kosak_211103058
             this.button_geridon.TabIndex = 41;
             this.button_geridon.Text = "Geri Dön";
             this.button_geridon.UseVisualStyleBackColor = true;
+            this.button_geridon.Click += new System.EventHandler(this.button_geridon_Click);
             // 
             // groupBox1
             // 
